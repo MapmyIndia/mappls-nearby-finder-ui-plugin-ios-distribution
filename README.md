@@ -14,6 +14,7 @@ BritanniaNearby Plugin a Custom reusable iOS component that helps Britannia's de
 
 | Version | Dated | Description |
 | :------ | :---- | :---------- |
+| `1.0.5` | 25 Sep, 2026 | Improvement and Bug Fixes. |
 | `1.0.4` | 18 Aug, 2026 | Nearby Search API – 250-Meter Radius for Nearby Mode. |
 | `1.0.3` | 16 Jul, 2026 | Restore the initial Filter Results camera position on back action. |
 | `1.0.2` | 26 Jun, 2026 | For channel Group `ROGT` show Map Marker tagged as "G". Show a dialog box to set Location access. |

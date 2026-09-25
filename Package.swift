@@ -13,8 +13,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BritanniaNearbyFinderUIPlugin",
-            url: "https://mmi-api-team.s3.amazonaws.com/Mappls-SDKs/iOS_Legacy_Auth/BritanniaNearbyFinderUIPlugin/BritanniaNearbyFinderUIPlugin.xcframework-1.0.4.zip",
-            checksum: "add0a4a67832539295092da56e82434be319dfed94ac96a15cc9aa2e6a677192")
+            url: "https://mmi-api-team.s3.amazonaws.com/Mappls-SDKs/iOS_Legacy_Auth/BritanniaNearbyFinderUIPlugin/BritanniaNearbyFinderUIPlugin-1.0.5.xcframework.zip",
+            checksum: "564e88e70a1b60ac6a7f16e98577d4fa06d22239977c97b9340f0edadca9eb29")
     ]
 )
 
