@@ -1,20 +1,23 @@
-// swift-tools-version:5.3
+// swift-tools-version: 5.9
+
 import PackageDescription
 
 let package = Package(
     name: "BritanniaNearbyFinderUIPlugin",
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
         .library(
             name: "BritanniaNearbyFinderUIPlugin",
-            targets: ["BritanniaNearbyFinderUIPlugin"])
+            targets: ["BritanniaNearbyFinderUIPlugin"]
+        )
     ],
-    dependencies: [
-    ],    
     targets: [
         .binaryTarget(
             name: "BritanniaNearbyFinderUIPlugin",
-            url: "https://mmi-api-team.s3.amazonaws.com/Mappls-SDKs/iOS_Legacy_Auth/BritanniaNearbyFinderUIPlugin/BritanniaNearbyFinderUIPlugin-1.0.5.xcframework.zip",
-            checksum: "564e88e70a1b60ac6a7f16e98577d4fa06d22239977c97b9340f0edadca9eb29")
+            url: "https://mmi-api-team.s3.amazonaws.com/Mappls-SDKs/iOS_Legacy_Auth/BritanniaNearbyFinderUIPlugin/BritanniaNearbyFinderUIPlugin.xcframework-1.0.6.zip",
+            checksum: "a5a3b7a49031bc22ba3c85bf20a2d14bb43f09bdcef2f3b8df92d06504b20ed8"
+        )
     ]
 )
-
